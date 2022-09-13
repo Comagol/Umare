@@ -1,0 +1,24 @@
+.navBar {
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+}
+
+.itemLista {
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.link {
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+}
