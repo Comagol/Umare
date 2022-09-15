@@ -1,0 +1,13 @@
+.img-container {
+    border: 1px solid red;
+    display: flex;
+}
+
+.nombre {
+    font-size: 100px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}

@@ -1,15 +1,16 @@
 import './NavBar.css';
-
+import CartWidget from '../CartWidget/CartWidget';
 function NavBar() {
 return (
-    <div className="navBar">
+    <nav className="navBar">
         <h2 className="titulo">Umare</h2>
         <ul className="lista">
             <li className="itemLista"><a href='#' className='link'>Inicio</a></li>
             <li className="itemLista"><a href='#' className='link'>Productos</a></li>
             <li className="itemLista"><a href='#' className='link'>Nosotros</a></li>
         </ul>
-    </div>
+        <CartWidget/>
+    </nav>
 );
 }
 
